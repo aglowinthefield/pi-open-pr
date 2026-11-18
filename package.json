@@ -1,0 +1,12 @@
+{
+  "name": "pi-open-pr",
+  "version": "0.1.0",
+  "description": "Opens a pull request in your browser the moment a pi agent creates one.",
+  "keywords": ["pi-package", "pi-extension", "github", "pull-request"],
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/extension.test.ts"
+  },
+  "pi": { "extensions": ["./src/extension.ts"] }
+}
